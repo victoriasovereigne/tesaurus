@@ -1,1 +1,27 @@
 # tesaurus
+
+Tesaurus bahasa Indonesia dalam format json, diambil dari Tesaurus Bahasa Indonesia Pusat Bahasa. Versi online diambil dari tautan berikut: 
+
+https://theindonesianwriters.files.wordpress.com/2011/04/kamus-tesaurus_bahasa-indonesia.pdf
+
+File **dict.json** merupakan dump dari dictionary Python, dengan 
+- key: entri kata yang ingin dicari
+- value: dictionary berisi tag, sinonim, dan antonim
+
+**Contoh:**
+
+unik --> {'tag': 'a', 'sinonim': ['distingtif', 'eksklusif', 'idiosinkratis', 'individual', 'istimewa', 'khas', 'khusus', 'partikular', 'singularis', 'solo', 'spesial', 'spesifik', 'tersendiri', 'tunggal'], 'antonim': ['biasa']}
+
+**Daftar tag:**
+- a = adjektiva
+- adv = adverbia
+- ki = kiasan
+- n = nomina
+- num = numeralia
+- p = partikel
+- pron = pronomina
+- v = verba
+
+File **tesaurus.txt** merupakan hasil mentah konversi pdf ke teks. 
+
+File **tesaurus_processor.py** adalah program Python untuk mengubah tesaurus.txt menjadi dict.json.
