@@ -22,6 +22,4 @@ unik --> {'tag': 'a', 'sinonim': ['distingtif', 'eksklusif', 'idiosinkratis', 'i
 - pron = pronomina
 - v = verba
 
-File **tesaurus.txt** merupakan hasil mentah konversi pdf ke teks. 
-
-File **tesaurus_processor.py** adalah program Python untuk mengubah tesaurus.txt menjadi dict.json.
+File **tesaurus.py** adalah program Python untuk memperoleh sinonim dan antonim dari suatu kata.
