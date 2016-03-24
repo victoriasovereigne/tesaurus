@@ -1,6 +1,6 @@
 # tesaurus
 
-Tesaurus bahasa Indonesia dalam format json, diambil dari Tesaurus Bahasa Indonesia Pusat Bahasa. Versi online diambil dari tautan berikut: 
+Tesaurus bahasa Indonesia dalam format json, diambil dari Tesaurus Bahasa Indonesia Pusat Bahasa karya Departemen Pendidikan Nasional tahun 2008. Versi online diambil dari tautan berikut: 
 
 https://theindonesianwriters.files.wordpress.com/2011/04/kamus-tesaurus_bahasa-indonesia.pdf
 
